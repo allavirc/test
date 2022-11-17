@@ -1,0 +1,180 @@
+body{
+    font-family: 'Bahnschrift Light', Arial, sans-serif;;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head > p{
+    font-size: calc(15px + (15 + 15 *0.7) * (100vw - 320px) / 1280);
+}
+.div_adres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+}
+.cont_centerr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 7%;
+    margin-bottom: 10%;
+}
+.reiting{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.reiting > p{
+    font-size: calc(15px + (15 + 15 *0.7) * (100vw - 320px) / 1280);
+}
+.mynimy{
+    width: 60%;
+    margin: 0 auto;
+}
+.cont_cont{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("https://cdn.create.vista.com/api/media/medium/101316506/stock-photo-group-of-children?token=1yev63horpVylEd4vUvmDtGJpQKO98Y1gGmkpeXw16C4pBiQ6SB9jpp1pMzfgo4F");
+    background-size: cover;
+    width: 100%;
+}
+td{
+    width: 100px;
+}
+.center_text{
+    margin: 5%;
+    font-size: calc(15px + (15 + 15 *0.7) * (100vw - 320px) / 1280);
+}
+.text_text{
+    font-size: calc(10px + (10 + 10 *0.7) * (100vw - 320px) / 1280);
+}
+#bot{
+    margin-bottom: 3%;
+}
+.img{
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+}
+.text{
+    margin: 0 auto;
+    font-size: calc(10px + (7 + 7 *0.7) * (100vw - 320px) / 1280);
+}
+#text{
+    font-size: calc(10px + (4 + 4 *0.7) * (100vw - 320px) / 1280);
+    padding: 2% 5%;
+}
+.text #text{
+    display: flex;
+    justify-self: center;
+}
+.exursi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.scroll-item{
+    font-size: calc(10px + (5 + 5 *0.7) * (100vw - 320px) / 1280);
+}
+#text1{
+    margin-bottom: 3%;
+    color: rgb(47, 77, 81);
+    font-size: calc(15px + (10 + 10 *0.7) * (100vw - 320px) / 1280);
+}
+.exursi > #info{
+    justify-self: center;
+    width: 60%;
+    margin: 5%;
+}
+.d-block{
+    width: 800px;
+    object-fit: cover;
+}
+.osnov-info{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("https://cdn.create.vista.com/api/media/medium/420308814/stock-photo-multiethnic-children-reading-books-isolated?token=");
+}
+.grid{
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    width: 90%;
+}
+#end{
+    justify-self: end;
+}
+
+#navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    color: white;
+  }
+  #teleg > a:hover{
+      color: rgb(91, 91, 121);
+  }
+  #faceb > a:hover{
+      color: rgb(0, 0, 148);
+  }
+  #vk > a:hover{
+      color: rgb(91, 91, 121);
+  }
+  #twitt > a:hover{
+      color: rgb(53, 53, 255);
+  }
+  #insta > a:hover{
+      color: rgb(142, 0, 113);
+  }
+  #youtube > a:hover{
+      color: rgb(180, 0, 0);
+  }
+  #mob_version{
+    font-size: calc(12px + (6 + 6 *0.7) * ((100vw - 320px) / 1280)); 
+    font-family:'Bahnschrift Light', Arial, sans-serif; 
+    margin: 5px;
+  }
+#hrefs{
+    display: flex;
+    justify-content: space-between;
+}
+#card_cont{
+    flex-direction: row;
+    height: 450px;
+    margin: 5%;
+}
+.card-body > p{
+    line-height: 0.6;
+    margin: 5% 0%;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 5%;
+    
+}

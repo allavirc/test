@@ -1,0 +1,124 @@
+html, body {
+    width: 100%;
+    height:100%;
+    font-family: 'Bahnschrift Light', Arial, sans-serif;
+  }
+  html { overflow-x: hidden;  }
+ body{
+    background-color: rgba(127, 255, 212, 0.132);
+ }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#img{
+    width: 350px;
+    margin: 50px;
+}
+.margin{
+    margin: 4%;
+    font-size:  calc(12px + (5 + 5 * 0.7) * ((100vw - 320px) / 1280));
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size:  calc(17px + (12 + 12 * 0.7) * ((100vw - 320px) / 1280));
+}
+
+
+.cont_for_reiting{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+}
+.reiting{
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.895);
+    width: 80%;
+    height: 500px;
+    margin: 2%;
+    
+}
+.reiting2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.895);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 70%;
+    height: 500px;
+    margin: 2%;
+}
+#red{
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.137);
+}
+.div_reiting{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div_reiting > h5{
+    margin: 10px;
+    font-size: calc(10px + (3 + 3 *0.7) * (100vw - 320px) / 1280);
+}
+.conteiner_of_schools{
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px;
+    font-size: calc(10px + (5 + 5 *0.7) * (100vw - 320px) / 1280);
+}
+.categorii{
+    padding: 15px;
+    overflow-y: scroll;
+}
+.categorii > h4{
+    font-size: calc(10px + (5 + 5 *0.7) * (100vw - 320px) / 1280);
+    margin: 2%;
+}
+#element::-webkit-scrollbar {
+    width: 5px;
+}
+  
+#element::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #797979;
+}
+  
+#element::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+ul > li{
+    margin: 15px;
+}
+ul{
+    font-size: calc(10px + (5 + 5 *0.7) * (100vw - 320px) / 1280);
+}
